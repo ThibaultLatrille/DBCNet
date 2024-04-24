@@ -1,0 +1,8 @@
+wget --output-document=data_links.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=0'
+wget --output-document=data_nodes_bergmann.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=1403125562'
+wget --output-document=data_nodes_ciriello.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=98095406'
+wget --output-document=data_nodes_dessimoz.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=5831987'
+wget --output-document=data_nodes_fasshauer.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=878899067'
+wget --output-document=data_nodes_kutalik.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=2009577840'
+wget --output-document=data_nodes_malaspinas.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=775436985'
+wget --output-document=data_nodes_salamin.csv 'https://docs.google.com/spreadsheets/d/1YzLqlKZBrjSAjGZ1VwzpoAemwn04uZNlmVhsGsmBPuk/export?format=csv&gid=537765681'
