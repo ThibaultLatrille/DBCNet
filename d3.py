@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-from d3graph import d3graph
 import networkx as nx
+from d3graph import d3graph
 import matplotlib.pyplot as plt
 
 
@@ -22,11 +22,19 @@ def build_graph():
         assert "Title" in df_node.columns, "Title column not found"
         group_nodes = []
         for i, row in df_node.iterrows():
-            label = " ".join(row[id_col].split("_")[1:]).capitalize()
+            label = " ".join(row[id_col].split("_")[1:])
+            if label.lower() == label:
+                label = label.capitalize()
             title = row['Title']
             abstract = row['Abstract']
             color = colors_map[color_idx % 20]
-            G.add_node(row[id_col], label=label, title=title, abstract=abstract, color=color)
+            keywords = []
+            if str(row['Keywords']) != "nan":
+                keywords = row['Keywords'].replace("\n", ", ").replace(";", ", ").split(",")
+                keywords = [k.strip() for k in keywords if len(k.strip()) > 0]
+            link = row['Link']
+            G.add_node(row[id_col], label=label, title=title, abstract=abstract, color=color, keywords=keywords,
+                       link=link)
             for node in group_nodes:
                 G.add_edge(row[id_col], node, label="Inner")
             group_nodes.append(row[id_col])
@@ -47,9 +55,9 @@ def build_graph():
     return G
 
 
-def show_graph(G):
+def save_d3(G):
     # Initialize from adjacency matrix (obtained from G)
-    d3 = d3graph()
+    d3 = d3graph(support=True)
     d3.graph(nx.to_pandas_adjacency(G))
 
     # Node properties
@@ -57,21 +65,27 @@ def show_graph(G):
     node_labels = [G.nodes[n]['label'] for n in nodelist]
     node_colors = [G.nodes[n]['color'] for n in nodelist]
     node_tooltips = [G.nodes[n]['title'] for n in nodelist]
-    d3.set_node_properties(label=node_labels, color=node_colors, tooltip=node_tooltips)
 
-    # Plot
-    outpath = 'd3graph.html'
+    d3.set_node_properties(label=node_labels, color=node_colors, tooltip=node_tooltips,
+                           size=4, opacity=1.0, fontsize=6)
+
+    outpath = 'DBCNetwork.html'
     d3.show(filepath=f'./{outpath}', showfig=False, show_slider=False)
     print(f'Graph saved in {outpath}')
-    # Remove the sentence below to remove adds
-    r = "<script async src='https://media.ethicalads.io/media/client/ethicalads.min.js'></script>"
-    with open(outpath, 'r') as f:
-        lines = f.readlines()
-        lines = [l for l in lines if r not in l]
-    with open(outpath, 'w') as f:
-        f.writelines(lines)
+
+
+def save_nx(G):
+    plt.figure(figsize=(10, 10))
+    pos = nx.spring_layout(G)
+    node_colors = [G.nodes[n]['color'] for n in G.nodes]
+    labels = {n: G.nodes[n]['label'] for n in G.nodes}
+    nx.draw(G, pos, with_labels=True, node_color=node_colors, node_size=1000, edge_color='k', linewidths=1,
+            font_size=10, font_color='black', font_weight='bold', alpha=0.7, edgecolors='k', labels=labels)
+    plt.axis('off')
+    plt.savefig('DBCNetwork.pdf')
 
 
 if __name__ == '__main__':
     graph = build_graph()
-    show_graph(graph)
+    save_nx(graph)
+    save_d3(graph)
