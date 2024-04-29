@@ -3,6 +3,7 @@ import pandas as pd
 import networkx as nx
 from d3graph import d3graph
 import matplotlib.pyplot as plt
+import json
 
 
 def build_graph():
@@ -27,6 +28,7 @@ def build_graph():
                 label = label.capitalize()
             title = row['Title']
             abstract = row['Abstract']
+            authors = row['Authors']
             color = colors_map[color_idx % 20]
             keywords = []
             if str(row['Keywords']) != "nan":
@@ -34,9 +36,9 @@ def build_graph():
                 keywords = [k.strip() for k in keywords if len(k.strip()) > 0]
             link = row['Link']
             G.add_node(row[id_col], label=label, title=title, abstract=abstract, color=color, keywords=keywords,
-                       link=link)
+                       doi=link, authors=authors)
             for node in group_nodes:
-                G.add_edge(row[id_col], node, label="Inner")
+                G.add_edge(row[id_col], node, label="Inner", relationship="Same group")
             group_nodes.append(row[id_col])
         color_idx += 1
     nodes = set(G.nodes)
@@ -49,10 +51,48 @@ def build_graph():
         if row['Id 2'] not in nodes:
             print(f"Target {row['Id 2']} not found in nodes")
             continue
-        G.add_edge(row['Id 1'], row['Id 2'], label="Outer")
+        G.add_edge(row['Id 1'], row['Id 2'], label="Outer", relationship=row['Relationship'])
 
     # Obtain adjacency matrix
     return G
+
+
+def save_json(G):
+    # Save graph as JSON for D3.js
+    # Nodes: 
+    # - "Name": Id of the manuscript 
+    # - "Title": Manuscript's title
+    # - "Authors": Manuscript's authors
+    # - "Keywords": Manuscript's keywords
+    # - "Abstract": Manuscript's abstract
+    # - "DOI": Manuscript's DOI
+    # - Color: Inherited from the DBC's group
+    # Edges:
+    # - "source": Id of the source node
+    # - "target": Id of the target node
+    # - "sourceTitle": Title of the source node
+    # - "targetTitle": Title of the target node
+    # - "Relationship": Relationship between the source and the target
+    nodes = []
+    for n in G.nodes:
+        node = G.nodes[n]
+        nodes.append(
+            {"Id": n, "Name": node['label'], "Title": node['title'], "Authors": node['authors'], "Keywords": node['keywords'],
+             "Abstract": node['abstract'], "DOI": node['doi'], "Color": node['color']})
+    links = []
+    for e in G.edges:
+        source = e[0]
+        target = e[1]
+        edge = G.edges[e]
+        links.append(
+            {"source": source, "target": target, "sourceTitle": G.nodes[source]['title'], "label": edge['label'],
+             "targetTitle": G.nodes[target]['title'], "Relationship": edge['relationship']})
+
+    # Writing to sample.json
+    with open("DBCNetwork.json", "w") as outfile:
+        # Serializing json
+        json_object = json.dumps({"nodes": nodes, "links": links}, indent=4)
+        outfile.write(json_object)
 
 
 def save_d3(G):
@@ -87,5 +127,6 @@ def save_nx(G):
 
 if __name__ == '__main__':
     graph = build_graph()
+    save_json(graph)
     save_nx(graph)
     save_d3(graph)
