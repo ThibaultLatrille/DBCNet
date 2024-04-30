@@ -145,6 +145,10 @@
             .style("fill", "none")
             .style("pointer-events", "all")
 
+        var scale_width = d3.scaleLinear()
+            .domain([0.0, 0.5, 1.0])
+            .range([1,2, 5])
+
         // Add a line for each link, and a circle for each node.
         const link = svg.append("g")
             .attr("stroke", "#999")
@@ -153,7 +157,7 @@
             .data(links)
             .join("line")
             .attr("class", "link")
-            .attr("stroke-width", 4)
+            .attr("stroke-width",(d) => {return scale_width(d.value)}  )
             .on("click", function (event, d) {
 
                 if (selected_edge === this) {
