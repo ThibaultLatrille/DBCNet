@@ -6,8 +6,8 @@
 
     <link rel="icon" type="image/x-icon" href="fav.jpeg">
 
-    <link href="bootstrap.min.css" rel="stylesheet" >
-    <script src="bootstrap.bundle.min.js" ></script>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <script src="bootstrap.bundle.min.js"></script>
     <script src="d3.js"></script>
 
 </head>
@@ -16,14 +16,13 @@
 
 <style>
 
-    #info_box{
-        max-height:100vh;
-        overflow:scroll;
+    #info_box {
+        max-height: 100vh;
+        overflow: scroll;
         text-align: justify;
         padding: 24px;
         background-color: rgba(225, 225, 225, 0.4);
     }
-
 
 </style>
 
@@ -31,11 +30,17 @@
 
     <div class="row" style="height: 100%;">
 
-        <div class="col-8" id="d3_viewer" ></div>
+        <div class="col-8" id="d3_viewer"></div>
 
         <div class="col-4" id='info_box'>
 
-            <table style="height: 100%; width: 100%"> <tbody> <tr> <td class="align-middle text-center"><h4>Click on nodes to see more information</h4></td> </tr> </tbody> </table>
+            <table style="height: 100%; width: 100%">
+                <tbody>
+                <tr>
+                    <td class="align-middle text-center"><h4>Click on nodes or edges to see more information</h4></td>
+                </tr>
+                </tbody>
+            </table>
 
 
         </div>
@@ -51,29 +56,22 @@
 
     const template_info = `
 
-        <a  class="badge text-bg-primary " target="_blank" href="HREF_123456789" style="position: absolute;    font-size: large; bottom: 8px; right: 8px"> Link to the paper</a>
-
-
         <h2 style="text-align: left">TITLE_123456789</h2>
-        <h5>    <small class="text-muted">AUTHORS_123456789</small>
-  </h5>
+        <h5><small class="text-muted">AUTHORS_123456789</small></h5>
 
-
-        <br>
         <div>
         SPAN_123456789
-
-               </div>
-
+        </div>
+        <div>
+        <a  class="badge text-bg-primary " target="_blank" href="HREF_123456789">Link to the paper</a>
+        </div>
         <br>
-
         <p>
-            <b>[Abstract]</b>
             ABS_123456789
         </p>
 
         <br>`
-    const  template_base =  '<table style="height: 100%; width: 100%"> <tbody> <tr> <td class="align-middle text-center"><h4>Click on nodes to see more information</h4></td> </tr> </tbody> </table>\n'
+    const template_base = '<table style="height: 100%; width: 100%"> <tbody> <tr> <td class="align-middle text-center"><h4>Click on nodes to see more information</h4></td> </tr> </tbody> </table>\n'
 
     class DefaultDict {
         constructor(defaultInit) {
@@ -104,11 +102,11 @@
         const links = data.links.map(d => ({...d}));
         const nodes = data.nodes.map(d => ({...d}));
         var groups = {
-          "Salamin": "#1f77b4",
-          "Bergmann": "#aec7e8",
-          "Fasshauer": "#ff7f0e",
-          "Dessimoz": "#2ca02c",
-          "Ciriello": "#d62728"
+            "Salamin": "#1f77b4",
+            "Bergmann": "#aec7e8",
+            "Fasshauer": "#ff7f0e",
+            "Dessimoz": "#2ca02c",
+            "Ciriello": "#d62728"
         }
 
         // Create a simulation with several forces.
@@ -117,8 +115,6 @@
             .force("charge", d3.forceManyBody().strength(-600))
             .force("x", d3.forceX())
             .force("y", d3.forceY());
-
-
 
 
         // create a tooltip
@@ -158,9 +154,9 @@
             .join("line")
             .attr("class", "link")
             .attr("stroke-width", 4)
-            .on("click", function(event,d){
+            .on("click", function (event, d) {
 
-                if (selected_edge === this){
+                if (selected_edge === this) {
                     tooltip.style("visibility", "hidden");
                     d3.select(selected_edge).attr("stroke", "#999")
                     selected_edge = null;
@@ -172,9 +168,9 @@
 
                 tooltip.style("visibility", "visible")
                     .style("top", (event.pageY + 20) + "px")
-                    .style("left",(event.pageX - 50) + "px")
-                    .html(`<h4>Relationship: <br> <small>${d.relationship}</small></h4> <br> <h5>${d.source_title} <a href="${d.source_doi}" target="_blank"> (Open in new tab) </a>
-</h5> <br> <h5>${d.target_title} <a href="${d.target_doi}" target="_blank"> (open in new tab) </a></h5>`)
+                    .style("left", (event.pageX - 50) + "px")
+                    .html(`<h4><small>${d.relationship}</small></h4> <br> <h5><a href="${d.source_doi}" target="_blank"> ${d.source_title} </a>
+</h5> <br> <h5> <a href="${d.target_doi}" target="_blank"> ${d.target_title} </a></h5>`)
 
                 tooltip.append("span") // Add a span element to act as the close button
                     .style("position", "absolute")
@@ -182,7 +178,7 @@
                     .style("top", "10px")
                     .style("cursor", "pointer")
                     .text("X")
-                    .on("click", function() { // When the close button is clicked
+                    .on("click", function () { // When the close button is clicked
                         tooltip.style("visibility", "hidden"); // Hide the tooltip
                         d3.select(selected_edge).attr("stroke", "#999");
                         selected_edge = null;
@@ -191,22 +187,21 @@
                     });
 
 
-
             })
-            .on("mouseover", function(event,focus){
+            .on("mouseover", function (event, focus) {
 
                 d3.selectAll(".node")
-                    .filter((d) => filter_neighbours_link(d,focus))
+                    .filter((d) => filter_neighbours_link(d, focus))
                     .attr("opacity", 0.5)
 
 
                 d3.selectAll(".link")
-                    .filter(function(d) {
+                    .filter(function (d) {
                         return d != focus;
                     })
                     .attr("stroke-opacity", 0.2)
             })
-            .on("mouseout", function(event,d){
+            .on("mouseout", function (event, d) {
                 d3.selectAll(".node")
                     .attr("opacity", 1)
                 d3.selectAll(".link")
@@ -223,16 +218,15 @@
             .attr("fill", d => d.color)
             .attr("class", "node")
             .on("dblclick", double_click)
-            .on('click', function(event, d) {
+            .on('click', function (event, d) {
 
-                if(selected_node === this){
+                if (selected_node === this) {
                     document.getElementById('info_box').innerHTML = template_base;
                     d3.select(selected_node).attr("fill", selected_color)
                     selected_node = null;
                     selected_color = null;
                     return
                 }
-
 
 
                 var iHTML = template_info.slice(0);
@@ -264,24 +258,23 @@
                 selected_color = d.color;
 
             })
-            .on("mouseover", function(event,d){
+            .on("mouseover", function (event, d) {
                 let thisNode = d.id;
                 d3.selectAll(".link")
-                    .filter(function(d) {
+                    .filter(function (d) {
                         return !(d.source.id === thisNode) && !(d.target.id === thisNode);
                     })
                     .attr("stroke-opacity", 0.2)
 
                 d3.selectAll(".node")
-                    .filter(function(d) {
+                    .filter(function (d) {
                         return d.id != thisNode;
                     })
                     .attr("opacity", 0.5)
 
 
-
             })
-            .on("mouseout", function(event,d){
+            .on("mouseout", function (event, d) {
                 d3.selectAll(".link")
                     .attr("stroke-opacity", 0.6)
 
@@ -326,7 +319,7 @@
 
             svg.append('rect')
                 .attr('x', 20)
-                .attr('y', i*50 +  20)
+                .attr('y', i * 50 + 20)
                 .attr('width', 40)
                 .attr('height', 40)
                 .attr('fill', groups[gKey]);
@@ -334,8 +327,8 @@
 
             svg.append('text')
                 .attr('x', 80)
-                .attr('y', i*50 +  50)
-                .text( gKey);
+                .attr('y', i * 50 + 50)
+                .text(gKey);
 
             i++
 
@@ -343,11 +336,11 @@
 
         // UTILS
 
-        var filter_neighbours_node = function(d, focus) {
+        var filter_neighbours_node = function (d, focus) {
             return !(d.source.id === focus.id) && !(d.target.id === focus.id);
         }
 
-        var filter_neighbours_link = function(d, focus) {
+        var filter_neighbours_link = function (d, focus) {
             return !(d.id === focus.source.id) && !(d.id === focus.target.id);
         }
 
@@ -361,7 +354,7 @@
 
         function dragged(event, d) {
             d.fx = event.x
-            d.fy = event.y ;
+            d.fy = event.y;
         }
 
         function dragended(event, d) {
@@ -383,9 +376,5 @@
 
 
     });
-
-
 </script>
-
-
 </html>

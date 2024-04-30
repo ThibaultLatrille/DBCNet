@@ -440,834 +440,1146 @@
     {
       "source": "S_gene_flow",
       "target": "S_hybridisation",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.755223880597015,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2024.03.10.584293",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_diversfication",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.8020725388601037,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1093/gbe/evad088",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_speciation",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.8218142548596112,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.02.28.530448",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_community",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.7821576763485477,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.03.30.534900",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_metabolomic",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.8039728175640355,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.3389/fevo.2023.1050083",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_generalist",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.8619509412435824,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.19.563036",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_trait_evolution",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.6884057971014492,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_deep_learning",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.7942827973455845,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_gene_flow",
       "target": "S_adaptation",
-      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
       "label": "Inner",
+      "value": 0.5302013422818792,
+      "source_title": "Recurrent gene flow events occurred during the diversification of clownfishes of the skunk complex",
+      "source_doi": "https://doi.org/10.1111/mec.17347",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_diversfication",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.6684210526315789,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1093/gbe/evad088",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_speciation",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.7052280311457174,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.02.28.530448",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_community",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.6709401709401709,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.03.30.534900",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_metabolomic",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.6870638754696726,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.3389/fevo.2023.1050083",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_generalist",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.7616209773539928,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.19.563036",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_trait_evolution",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.8081395348837209,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_deep_learning",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.676424464192368,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_hybridisation",
       "target": "S_adaptation",
-      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
       "label": "Inner",
+      "value": 0.6553799849510911,
+      "source_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "source_doi": "https://doi.org/10.1101/2024.03.10.584293",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_speciation",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.811965811965812,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.02.28.530448",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_community",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.8357536304456685,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.03.30.534900",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_metabolomic",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.8488196885986942,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.3389/fevo.2023.1050083",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_generalist",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.7799286805909322,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.19.563036",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_trait_evolution",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.6173169428113309,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_deep_learning",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.8411996066863323,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_diversfication",
       "target": "S_adaptation",
-      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
       "label": "Inner",
+      "value": 0.4688841201716738,
+      "source_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "source_doi": "https://doi.org/10.1093/gbe/evad088",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_speciation",
       "target": "S_community",
-      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
       "label": "Inner",
+      "value": 0.8332475553268142,
+      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "source_doi": "https://doi.org/10.1101/2023.02.28.530448",
       "target_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.03.30.534900",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_speciation",
       "target": "S_metabolomic",
-      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
       "label": "Inner",
+      "value": 0.813894523326572,
+      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "source_doi": "https://doi.org/10.1101/2023.02.28.530448",
       "target_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.3389/fevo.2023.1050083",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_speciation",
       "target": "S_generalist",
-      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
       "label": "Inner",
+      "value": 0.809930592632141,
+      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "source_doi": "https://doi.org/10.1101/2023.02.28.530448",
       "target_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.19.563036",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_speciation",
       "target": "S_trait_evolution",
-      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
       "label": "Inner",
+      "value": 0.6499153020892151,
+      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "source_doi": "https://doi.org/10.1101/2023.02.28.530448",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_speciation",
       "target": "S_deep_learning",
-      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
       "label": "Inner",
+      "value": 0.8379606259464917,
+      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "source_doi": "https://doi.org/10.1101/2023.02.28.530448",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_speciation",
       "target": "S_adaptation",
-      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
       "label": "Inner",
+      "value": 0.495741056218058,
+      "source_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "source_doi": "https://doi.org/10.1101/2023.02.28.530448",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_community",
       "target": "S_metabolomic",
-      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
       "label": "Inner",
+      "value": 0.839737108190091,
+      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "source_doi": "https://doi.org/10.1101/2023.03.30.534900",
       "target_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.3389/fevo.2023.1050083",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_community",
       "target": "S_generalist",
-      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
       "label": "Inner",
+      "value": 0.7923156801661475,
+      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "source_doi": "https://doi.org/10.1101/2023.03.30.534900",
       "target_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.19.563036",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_community",
       "target": "S_trait_evolution",
-      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
       "label": "Inner",
+      "value": 0.6235038084874864,
+      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "source_doi": "https://doi.org/10.1101/2023.03.30.534900",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_community",
       "target": "S_deep_learning",
-      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
       "label": "Inner",
+      "value": 0.80810546875,
+      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "source_doi": "https://doi.org/10.1101/2023.03.30.534900",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_community",
       "target": "S_adaptation",
-      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
       "label": "Inner",
+      "value": 0.4813186813186814,
+      "source_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "source_doi": "https://doi.org/10.1101/2023.03.30.534900",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_metabolomic",
       "target": "S_generalist",
-      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
       "label": "Inner",
+      "value": 0.8142333856619571,
+      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
+      "source_doi": "https://doi.org/10.3389/fevo.2023.1050083",
       "target_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.19.563036",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_metabolomic",
       "target": "S_trait_evolution",
-      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
       "label": "Inner",
+      "value": 0.6254742547425475,
+      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
+      "source_doi": "https://doi.org/10.3389/fevo.2023.1050083",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_metabolomic",
       "target": "S_deep_learning",
-      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
       "label": "Inner",
+      "value": 0.8288243974422036,
+      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
+      "source_doi": "https://doi.org/10.3389/fevo.2023.1050083",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_metabolomic",
       "target": "S_adaptation",
-      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
       "label": "Inner",
+      "value": 0.4765795206971677,
+      "source_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
+      "source_doi": "https://doi.org/10.3389/fevo.2023.1050083",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_generalist",
       "target": "S_trait_evolution",
-      "source_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
       "label": "Inner",
+      "value": 0.6929560505719446,
+      "source_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
+      "source_doi": "https://doi.org/10.1101/2023.10.19.563036",
       "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_generalist",
       "target": "S_deep_learning",
-      "source_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
       "label": "Inner",
+      "value": 0.8070624360286591,
+      "source_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
+      "source_doi": "https://doi.org/10.1101/2023.10.19.563036",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_generalist",
       "target": "S_adaptation",
-      "source_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
       "label": "Inner",
+      "value": 0.5278450363196125,
+      "source_title": "Gene flow throughout the evolutionary history of a polymorphic and generalist clownfish",
+      "source_doi": "https://doi.org/10.1101/2023.10.19.563036",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_trait_evolution",
       "target": "S_deep_learning",
-      "source_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
       "label": "Inner",
+      "value": 0.6095638465580662,
+      "source_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
+      "source_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
       "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.09.08.556821",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_trait_evolution",
       "target": "S_adaptation",
-      "source_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
       "label": "Inner",
+      "value": 0.7291841883936081,
+      "source_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
+      "source_doi": "https://doi.org/10.1101/2023.10.02.559886 ",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_deep_learning",
       "target": "S_adaptation",
-      "source_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
       "label": "Inner",
+      "value": 0.46515311510031676,
+      "source_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
+      "source_doi": "https://doi.org/10.1101/2023.09.08.556821",
       "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
-      "relationship": "Same group"
+      "target_doi": "https://doi.org/10.1101/2023.05.03.538864",
+      "relationship": "Group Salamin"
     },
     {
       "source": "S_adaptation",
       "target": "D_FastOMA",
-      "source_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
       "label": "Outer",
+      "value": 1,
+      "source_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
+      "source_doi": "https://doi.org/10.1101/2023.05.03.538864",
       "target_title": "Orthology inference at scale with FastOMA",
+      "target_doi": "https://doi.org/10.1101/2024.01.29.577392 ",
       "relationship": "Based on protein-coding alignement of orthologous sequences"
     },
     {
       "source": "B_phenotype",
       "target": "B_GWAS",
-      "source_title": "Phenotypic and Genetic Characteristics of Retinal Vascular Parameters and their Association with Diseases",
       "label": "Inner",
+      "value": 0.6135779816513761,
+      "source_title": "Phenotypic and Genetic Characteristics of Retinal Vascular Parameters and their Association with Diseases",
+      "source_doi": "https://www.medrxiv.org/content/10.1101/2023.07.07.23292368v2",
       "target_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
-      "relationship": "Same group"
+      "target_doi": "https://www.sciencedirect.com/science/article/pii/S2666914523000209",
+      "relationship": "Group Bergmann"
     },
     {
       "source": "B_phenotype",
       "target": "B_pathway",
-      "source_title": "Phenotypic and Genetic Characteristics of Retinal Vascular Parameters and their Association with Diseases",
       "label": "Inner",
+      "value": 0.8118918918918919,
+      "source_title": "Phenotypic and Genetic Characteristics of Retinal Vascular Parameters and their Association with Diseases",
+      "source_doi": "https://www.medrxiv.org/content/10.1101/2023.07.07.23292368v2",
       "target_title": "Cross-GWAS coherence test at the gene and pathway level",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010517",
+      "relationship": "Group Bergmann"
     },
     {
       "source": "B_GWAS",
       "target": "B_pathway",
-      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
       "label": "Inner",
+      "value": 0.6066471877282688,
+      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S2666914523000209",
       "target_title": "Cross-GWAS coherence test at the gene and pathway level",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010517",
+      "relationship": "Group Bergmann"
     },
     {
       "source": "F_SNARE",
       "target": "F_mutual_information",
-      "source_title": "A look beyond the QR code of SNARE proteins",
       "label": "Inner",
+      "value": 0.7651951375559821,
+      "source_title": "A look beyond the QR code of SNARE proteins",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.24.590896v1",
       "target_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
-      "relationship": "Same group"
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.04.07.588500v1",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_SNARE",
       "target": "F_Munc18",
-      "source_title": "A look beyond the QR code of SNARE proteins",
       "label": "Inner",
+      "value": 0.8176546391752577,
+      "source_title": "A look beyond the QR code of SNARE proteins",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.24.590896v1",
       "target_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
-      "relationship": "Same group"
+      "target_doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4870",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_SNARE",
       "target": "F_lncRNA_cancer_transcriptomics",
-      "source_title": "A look beyond the QR code of SNARE proteins",
       "label": "Inner",
+      "value": 0.6973415132924335,
+      "source_title": "A look beyond the QR code of SNARE proteins",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.24.590896v1",
       "target_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities ",
-      "relationship": "Same group"
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9903773/",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_SNARE",
       "target": "F_arachidonic_acid",
-      "source_title": "A look beyond the QR code of SNARE proteins",
       "label": "Inner",
+      "value": 0.6574004507888805,
+      "source_title": "A look beyond the QR code of SNARE proteins",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.24.590896v1",
       "target_title": "Arachidonic acid does not grease the exocytotic SNARE machinery ",
-      "relationship": "Same group"
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.06.527244v1.abstract",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_mutual_information",
       "target": "F_Munc18",
-      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
       "label": "Inner",
+      "value": 0.7952468007312614,
+      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.07.588500v1",
       "target_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
-      "relationship": "Same group"
+      "target_doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4870",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_mutual_information",
       "target": "F_lncRNA_cancer_transcriptomics",
-      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
       "label": "Inner",
+      "value": 0.6488020176544766,
+      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.07.588500v1",
       "target_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities ",
-      "relationship": "Same group"
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9903773/",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_mutual_information",
       "target": "F_arachidonic_acid",
-      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
       "label": "Inner",
+      "value": 0.5911262798634812,
+      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2024.04.07.588500v1",
       "target_title": "Arachidonic acid does not grease the exocytotic SNARE machinery ",
-      "relationship": "Same group"
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.06.527244v1.abstract",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_Munc18",
       "target": "F_lncRNA_cancer_transcriptomics",
-      "source_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
       "label": "Inner",
+      "value": 0.6679127725856698,
+      "source_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
+      "source_doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4870",
       "target_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities ",
-      "relationship": "Same group"
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9903773/",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_Munc18",
       "target": "F_arachidonic_acid",
-      "source_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
       "label": "Inner",
+      "value": 0.5795379537953795,
+      "source_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
+      "source_doi": "https://onlinelibrary.wiley.com/doi/full/10.1002/pro.4870",
       "target_title": "Arachidonic acid does not grease the exocytotic SNARE machinery ",
-      "relationship": "Same group"
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.06.527244v1.abstract",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_lncRNA_cancer_transcriptomics",
       "target": "F_arachidonic_acid",
-      "source_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities ",
       "label": "Inner",
+      "value": 0.7041322314049587,
+      "source_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities ",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9903773/",
       "target_title": "Arachidonic acid does not grease the exocytotic SNARE machinery ",
-      "relationship": "Same group"
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.06.527244v1.abstract",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "C_CellCharter",
       "target": "C_doubling",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.7676107480029049,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41586-023-05794-2",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_epistasis",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.8205128205128205,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Epistasis and evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_TAD",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.7428189712758851,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_coregulation",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.7778592375366569,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_Histone",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.8157689305230289,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-021-00842-x",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_lung",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.8316286388670339,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
-      "relationship": "Same group"
+      "target_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_dependencies",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.814900153609831,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_topological",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.7691766361717101,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_CellCharter",
       "target": "C_pan_cancer",
-      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "label": "Inner",
+      "value": 0.7,
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://www.nature.com/articles/s41588-023-01588-4",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_epistasis",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.8033707865168539,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Epistasis and evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_TAD",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.7964889466840052,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_coregulation",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.8701957940536621,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_Histone",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.8088986141502553,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-021-00842-x",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_lung",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.8183150183150183,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
-      "relationship": "Same group"
+      "target_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_dependencies",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.8239130434782609,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_topological",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.8063642518618822,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_doubling",
       "target": "C_pan_cancer",
-      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
       "label": "Inner",
+      "value": 0.7714646464646465,
+      "source_title": "Whole-genome doubling drives oncogenic loss of chromatin segregation",
+      "source_doi": "https://www.nature.com/articles/s41586-023-05794-2",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_TAD",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.7939829954218444,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_coregulation",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.800844475721323,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_Histone",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.782608695652174,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-021-00842-x",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_lung",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.8169741697416975,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
-      "relationship": "Same group"
+      "target_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_dependencies",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.8186453022578296,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_topological",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.811217510259918,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_epistasis",
       "target": "C_pan_cancer",
-      "source_title": "Epistasis and evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.7544080604534005,
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://www.sciencedirect.com/science/article/pii/S0959437X22000983",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_TAD",
       "target": "C_coregulation",
-      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
       "label": "Inner",
+      "value": 0.8190224570673712,
+      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
+      "source_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
       "target_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_TAD",
       "target": "C_Histone",
-      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
       "label": "Inner",
+      "value": 0.7536327608982827,
+      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
+      "source_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
       "target_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-021-00842-x",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_TAD",
       "target": "C_lung",
-      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
       "label": "Inner",
+      "value": 0.7572751322751323,
+      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
+      "source_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
       "target_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
-      "relationship": "Same group"
+      "target_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_TAD",
       "target": "C_dependencies",
-      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
       "label": "Inner",
+      "value": 0.7617801047120419,
+      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
+      "source_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_TAD",
       "target": "C_topological",
-      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
       "label": "Inner",
+      "value": 0.8485045513654096,
+      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
+      "source_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_TAD",
       "target": "C_pan_cancer",
-      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
       "label": "Inner",
+      "value": 0.8143639683505782,
+      "source_title": "Methods for the Analysis of Topologically Associating Domains (TADs)",
+      "source_doi": "https://link.springer.com/protocol/10.1007/978-1-0716-1390-0_3",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_coregulation",
       "target": "C_Histone",
-      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
       "label": "Inner",
+      "value": 0.8062865497076024,
+      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
+      "source_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
       "target_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-021-00842-x",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_coregulation",
       "target": "C_lung",
-      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
       "label": "Inner",
+      "value": 0.8183823529411764,
+      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
+      "source_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
       "target_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
-      "relationship": "Same group"
+      "target_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_coregulation",
       "target": "C_dependencies",
-      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
       "label": "Inner",
+      "value": 0.8226744186046512,
+      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
+      "source_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_coregulation",
       "target": "C_topological",
-      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
       "label": "Inner",
+      "value": 0.8426888426888427,
+      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
+      "source_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_coregulation",
       "target": "C_pan_cancer",
-      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
       "label": "Inner",
+      "value": 0.7975578406169666,
+      "source_title": "Systematic\n assessment of gene co-regulation within chromatin domains determines \ndifferentially active domains across human cancers",
+      "source_doi": "https://link.springer.com/article/10.1186/s13059-021-02436-6",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_Histone",
       "target": "C_lung",
-      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
       "label": "Inner",
+      "value": 0.8094512195121951,
+      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
+      "source_doi": "https://www.nature.com/articles/s41588-021-00842-x",
       "target_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
-      "relationship": "Same group"
+      "target_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_Histone",
       "target": "C_dependencies",
-      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
       "label": "Inner",
+      "value": 0.8473926380368099,
+      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
+      "source_doi": "https://www.nature.com/articles/s41588-021-00842-x",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_Histone",
       "target": "C_topological",
-      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
       "label": "Inner",
+      "value": 0.7558299039780522,
+      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
+      "source_doi": "https://www.nature.com/articles/s41588-021-00842-x",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_Histone",
       "target": "C_pan_cancer",
-      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
       "label": "Inner",
+      "value": 0.713015873015873,
+      "source_title": "Histone acetylation dynamics modulates chromatin conformation and allele-specific interactions at oncogenic loci",
+      "source_doi": "https://www.nature.com/articles/s41588-021-00842-x",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_lung",
       "target": "C_dependencies",
-      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
       "label": "Inner",
+      "value": 0.8646558391337974,
+      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
+      "source_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
       "target_title": "Discovering functional evolutionary dependencies in human cancers",
-      "relationship": "Same group"
+      "target_doi": "https://www.nature.com/articles/s41588-020-0703-5",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_lung",
       "target": "C_topological",
-      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
       "label": "Inner",
+      "value": 0.8054968287526427,
+      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
+      "source_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_lung",
       "target": "C_pan_cancer",
-      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
       "label": "Inner",
+      "value": 0.7555266579973993,
+      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
+      "source_doi": "https://aacrjournals.org/cancerdiscovery/article/11/6/1490/666581/Nongenetic-Evolution-Drives-Lung-Adenocarcinoma",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_dependencies",
       "target": "C_topological",
-      "source_title": "Discovering functional evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.7922705314009661,
+      "source_title": "Discovering functional evolutionary dependencies in human cancers",
+      "source_doi": "https://www.nature.com/articles/s41588-020-0703-5",
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
-      "relationship": "Same group"
+      "target_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_dependencies",
       "target": "C_pan_cancer",
-      "source_title": "Discovering functional evolutionary dependencies in human cancers",
       "label": "Inner",
+      "value": 0.7420382165605095,
+      "source_title": "Discovering functional evolutionary dependencies in human cancers",
+      "source_doi": "https://www.nature.com/articles/s41588-020-0703-5",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     },
     {
       "source": "C_topological",
       "target": "C_pan_cancer",
-      "source_title": "Comparison of computational methods for the identification of topologically associating domains",
       "label": "Inner",
+      "value": 0.813953488372093,
+      "source_title": "Comparison of computational methods for the identification of topologically associating domains",
+      "source_doi": "https://link.springer.com/article/10.1186/s13059-018-1596-9",
       "target_title": "Pan-cancer inference of intra-tumor heterogeneity reveals associations with different forms of genomic instability",
-      "relationship": "Same group"
+      "target_doi": "https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1007669",
+      "relationship": "Group Ciriello"
     }
   ]
 }

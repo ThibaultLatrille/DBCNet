@@ -4,6 +4,7 @@ import networkx as nx
 from d3graph import d3graph
 import matplotlib.pyplot as plt
 import json
+import textdistance
 
 
 def build_graph():
@@ -38,7 +39,9 @@ def build_graph():
             G.add_node(row[id_col], label=label, title=title, abstract=abstract, color=color, keywords=keywords,
                        doi=link, authors=authors, group=group_name)
             for node in group_nodes:
-                G.add_edge(row[id_col], node, label="Inner", relationship="Same group")
+                abstract_similarity = textdistance.jaccard.normalized_similarity(abstract, G.nodes[node]['abstract'])
+                G.add_edge(row[id_col], node, label="Inner", relationship=f"Group {group_name}",
+                           weight=abstract_similarity)
             group_nodes.append(row[id_col])
         color_idx += 1
     nodes = set(G.nodes)
@@ -51,7 +54,7 @@ def build_graph():
         if row['Id 2'] not in nodes:
             print(f"Target {row['Id 2']} not found in nodes")
             continue
-        G.add_edge(row['Id 1'], row['Id 2'], label="Outer", relationship=row['Relationship'])
+        G.add_edge(row['Id 1'], row['Id 2'], label="Outer", relationship=row['Relationship'], weight=1)
 
     # Obtain adjacency matrix
     return G
@@ -72,8 +75,12 @@ def save_json(G):
     # Edges:
     # - "source": Id of the source node
     # - "target": Id of the target node
+    # - "label": Label of the edge
+    # - "value": Weight of the edge
     # - "source_title": Title of the source node
+    # - "source_doi": DOI of the source node
     # - "target_title": Title of the target node
+    # - "target_doi": DOI of the target node
     # - "relationship": Relationship between the source and the target
     nodes = []
     for n in G.nodes:
@@ -87,8 +94,10 @@ def save_json(G):
         target = e[1]
         edge = G.edges[e]
         links.append(
-            {"source": source, "target": target, "source_title": G.nodes[source]['title'], "label": edge['label'],
-             "target_title": G.nodes[target]['title'], "relationship": edge['relationship']})
+            {"source": source, "target": target, "label": edge['label'], "value": edge['weight'],
+             "source_title": G.nodes[source]['title'], "source_doi": G.nodes[source]['doi'],
+             "target_title": G.nodes[target]['title'], "target_doi": G.nodes[target]['doi'],
+             "relationship": edge['relationship']})
 
     # Writing to sample.json
     with open("DBCNetwork.json", "w") as outfile:
