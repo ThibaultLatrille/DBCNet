@@ -12,11 +12,11 @@ def build_graph():
     c_map = plt.get_cmap('tab20')
     colors_map = {i: c_map(i) for i in range(20)}
     colors_map = {i: f"#{int(c[0] * 255):02x}{int(c[1] * 255):02x}{int(c[2] * 255):02x}" for i, c in colors_map.items()}
-
     color_idx = 0
     for p in os.listdir('data'):
         if not p.startswith('nodes') or p.startswith('.'):
             continue
+        group_name = p.split("_")[1].replace(".csv", "").capitalize()
         df_node = pd.read_csv(f'data/{p}')
         id_col = "Manuscript Id"
         assert id_col in df_node.columns, "Id column not found"
@@ -36,7 +36,7 @@ def build_graph():
                 keywords = [k.strip() for k in keywords if len(k.strip()) > 0]
             link = row['Link']
             G.add_node(row[id_col], label=label, title=title, abstract=abstract, color=color, keywords=keywords,
-                       doi=link, authors=authors)
+                       doi=link, authors=authors, group=group_name)
             for node in group_nodes:
                 G.add_edge(row[id_col], node, label="Inner", relationship="Same group")
             group_nodes.append(row[id_col])
@@ -59,40 +59,51 @@ def build_graph():
 
 def save_json(G):
     # Save graph as JSON for D3.js
-    # Nodes: 
-    # - "Name": Id of the manuscript 
-    # - "Title": Manuscript's title
-    # - "Authors": Manuscript's authors
-    # - "Keywords": Manuscript's keywords
-    # - "Abstract": Manuscript's abstract
-    # - "DOI": Manuscript's DOI
-    # - Color: Inherited from the DBC's group
+    # Nodes:
+    # - "id": Id of the manuscript
+    # - "name": Display name of the manuscript
+    # - "title": Manuscript's title
+    # - "authors": Manuscript's authors
+    # - "keywords": Manuscript's keywords
+    # - "abstract": Manuscript's abstract
+    # - "doi": Manuscript's DOI
+    # - "group": DBC's group
+    # - "color": Inherited from the DBC's group
     # Edges:
     # - "source": Id of the source node
     # - "target": Id of the target node
-    # - "sourceTitle": Title of the source node
-    # - "targetTitle": Title of the target node
-    # - "Relationship": Relationship between the source and the target
+    # - "source_title": Title of the source node
+    # - "target_title": Title of the target node
+    # - "relationship": Relationship between the source and the target
     nodes = []
     for n in G.nodes:
         node = G.nodes[n]
         nodes.append(
-            {"Id": n, "Name": node['label'], "Title": node['title'], "Authors": node['authors'], "Keywords": node['keywords'],
-             "Abstract": node['abstract'], "DOI": node['doi'], "Color": node['color']})
+            {"id": n, "name": node['label'], "title": node['title'], "authors": node['authors'], "group": node['group'],
+             "keywords": node['keywords'], "abstract": node['abstract'], "doi": node['doi'], "color": node['color']})
     links = []
     for e in G.edges:
         source = e[0]
         target = e[1]
         edge = G.edges[e]
         links.append(
-            {"source": source, "target": target, "sourceTitle": G.nodes[source]['title'], "label": edge['label'],
-             "targetTitle": G.nodes[target]['title'], "Relationship": edge['relationship']})
+            {"source": source, "target": target, "source_title": G.nodes[source]['title'], "label": edge['label'],
+             "target_title": G.nodes[target]['title'], "relationship": edge['relationship']})
 
     # Writing to sample.json
     with open("DBCNetwork.json", "w") as outfile:
         # Serializing json
-        json_object = json.dumps({"nodes": nodes, "links": links}, indent=4)
+        json_object = json.dumps({"nodes": nodes, "links": links}, indent=2)
         outfile.write(json_object)
+
+    # Writing to DBCNetwork.js
+    # A js dictionary named "groups" is created with the group name as key and the color as value
+    with open("DBCNetwork.js", "w") as outfile:
+        groups = dict()
+        for n in G.nodes:
+            groups[G.nodes[n]['group']] = G.nodes[n]['color']
+        outfile.write("var groups = ")
+        outfile.write(json.dumps(groups, indent=2))
 
 
 def save_d3(G):
