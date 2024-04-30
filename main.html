@@ -147,17 +147,22 @@
 
         var scale_width = d3.scaleLinear()
             .domain([0.0, 0.5, 1.0])
-            .range([1,2, 5])
+            .range([0.5, 2, 2])
 
         // Add a line for each link, and a circle for each node.
         const link = svg.append("g")
             .attr("stroke", "#999")
-            .attr("stroke-opacity", 0.6)
             .selectAll("line")
             .data(links)
             .join("line")
             .attr("class", "link")
-            .attr("stroke-width",(d) => {return scale_width(d.value)}  )
+            .attr("stroke-opacity", (d) => {
+                return d.value
+            })
+            .attr("stroke-width", (d) => {
+                return scale_width(d.value)
+            })
+            .style("stroke", d => d.color)
             .on("click", function (event, d) {
 
                 if (selected_edge === this) {

@@ -41,9 +41,21 @@ def build_graph():
             for node in group_nodes:
                 abstract_similarity = textdistance.jaccard.normalized_similarity(abstract, G.nodes[node]['abstract'])
                 G.add_edge(row[id_col], node, label="Inner", relationship=f"Group {group_name}",
-                           weight=abstract_similarity)
+                           weight=abstract_similarity, color=color)
             group_nodes.append(row[id_col])
         color_idx += 1
+        if len(group_nodes) <= 1:
+            continue
+        # Scale the edge weight by min and max in the group
+        min_weight = min([G.edges[e]['weight'] for e in G.edges if e[0] in group_nodes and e[1] in group_nodes])
+        max_weight = max([G.edges[e]['weight'] for e in G.edges if e[0] in group_nodes and e[1] in group_nodes])
+        min_scale, max_scale = 0.3, 0.7
+        for e in G.edges:
+            if e[0] in group_nodes and e[1] in group_nodes:
+                weight = min_scale + (G.edges[e]['weight'] - min_weight) * (max_scale - min_scale) / (
+                        max_weight - min_weight)
+                assert min_scale <= weight <= max_scale, f"Weight {weight} out of range"
+                G.edges[e]['weight'] = weight
     nodes = set(G.nodes)
 
     df_links = pd.read_csv('data/links.csv')
@@ -54,7 +66,7 @@ def build_graph():
         if row['Id 2'] not in nodes:
             print(f"Target {row['Id 2']} not found in nodes")
             continue
-        G.add_edge(row['Id 1'], row['Id 2'], label="Outer", relationship=row['Relationship'], weight=1)
+        G.add_edge(row['Id 1'], row['Id 2'], label="Outer", relationship=row['Relationship'], weight=1, color="grey")
 
     # Obtain adjacency matrix
     return G
@@ -77,6 +89,7 @@ def save_json(G):
     # - "target": Id of the target node
     # - "label": Label of the edge
     # - "value": Weight of the edge
+    # - "color": Color of the edge
     # - "source_title": Title of the source node
     # - "source_doi": DOI of the source node
     # - "target_title": Title of the target node
@@ -94,7 +107,8 @@ def save_json(G):
         target = e[1]
         edge = G.edges[e]
         links.append(
-            {"source": source, "target": target, "label": edge['label'], "value": edge['weight'],
+            {"source": source, "target": target,
+             "label": edge['label'], "value": edge['weight'], "color": edge['color'],
              "source_title": G.nodes[source]['title'], "source_doi": G.nodes[source]['doi'],
              "target_title": G.nodes[target]['title'], "target_doi": G.nodes[target]['doi'],
              "relationship": edge['relationship']})
@@ -134,6 +148,23 @@ def save_d3(G):
     print(f'Graph saved in {outpath}')
 
 
+def random_edges(G, n_edges):
+    import random
+    count = 0
+    while count < n_edges:
+        source = random.choice(list(G.nodes))
+        target = random.choice(list(G.nodes))
+        if source == target:
+            continue
+        if G.nodes[source]['group'] == G.nodes[target]['group']:
+            continue
+        if G.has_edge(source, target):
+            continue
+        G.add_edge(source, target, label="Random", relationship="Random", weight=1, color="grey")
+        count += 1
+    return G
+
+
 def save_nx(G):
     plt.figure(figsize=(10, 10))
     pos = nx.spring_layout(G)
@@ -147,6 +178,7 @@ def save_nx(G):
 
 if __name__ == '__main__':
     graph = build_graph()
+    graph = random_edges(graph, 20)
     save_json(graph)
     save_nx(graph)
     save_d3(graph)
