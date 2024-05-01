@@ -14,7 +14,7 @@ def build_graph():
     colors_map = {i: c_map(i) for i in range(20)}
     colors_map = {i: f"#{int(c[0] * 255):02x}{int(c[1] * 255):02x}{int(c[2] * 255):02x}" for i, c in colors_map.items()}
     color_idx = 0
-    for p in os.listdir('data'):
+    for p in sorted(os.listdir('data')):
         if not p.startswith('nodes') or p.startswith('.'):
             continue
         group_name = p.split("_")[1].replace(".csv", "").capitalize()
@@ -96,13 +96,13 @@ def save_json(G):
     # - "target_doi": DOI of the target node
     # - "relationship": Relationship between the source and the target
     nodes = []
-    for n in G.nodes:
+    for n in sorted(G.nodes):
         node = G.nodes[n]
         nodes.append(
             {"id": n, "name": node['label'], "title": node['title'], "authors": node['authors'], "group": node['group'],
              "keywords": node['keywords'], "abstract": node['abstract'], "doi": node['doi'], "color": node['color']})
     links = []
-    for e in G.edges:
+    for e in sorted(G.edges):
         source = e[0]
         target = e[1]
         edge = G.edges[e]
@@ -123,7 +123,7 @@ def save_json(G):
     # A js dictionary named "groups" is created with the group name as key and the color as value
     with open("DBCNetwork.js", "w") as outfile:
         groups = dict()
-        for n in G.nodes:
+        for n in sorted(G.nodes):
             groups[G.nodes[n]['group']] = G.nodes[n]['color']
         outfile.write("var groups = ")
         outfile.write(json.dumps(groups, indent=2))

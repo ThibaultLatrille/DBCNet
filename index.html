@@ -102,11 +102,11 @@
         const links = data.links.map(d => ({...d}));
         const nodes = data.nodes.map(d => ({...d}));
         var groups = {
-            "Salamin": "#1f77b4",
-            "Bergmann": "#aec7e8",
-            "Fasshauer": "#ff7f0e",
-            "Dessimoz": "#2ca02c",
-            "Ciriello": "#d62728"
+            "Bergmann": "#1f77b4",
+            "Ciriello": "#aec7e8",
+            "Dessimoz": "#ff7f0e",
+            "Fasshauer": "#ffbb78",
+            "Salamin": "#d62728"
         }
 
         // Create a simulation with several forces.
@@ -201,20 +201,22 @@
 
                 d3.selectAll(".node")
                     .filter((d) => filter_neighbours_link(d, focus))
-                    .attr("opacity", 0.5)
+                    .attr("opacity", 0.1)
 
 
                 d3.selectAll(".link")
                     .filter(function (d) {
                         return d != focus;
                     })
-                    .attr("stroke-opacity", 0.2)
+                    .attr("stroke-opacity", 0.1)
             })
             .on("mouseout", function (event, d) {
                 d3.selectAll(".node")
                     .attr("opacity", 1)
                 d3.selectAll(".link")
-                    .attr("stroke-opacity", 0.6)
+                    .attr("stroke-opacity", (d) => {
+                        return d.value
+                    })
             })
 
         const node = svg.append("g")
@@ -273,19 +275,21 @@
                     .filter(function (d) {
                         return !(d.source.id === thisNode) && !(d.target.id === thisNode);
                     })
-                    .attr("stroke-opacity", 0.2)
+                    .attr("stroke-opacity", 0.1)
 
                 d3.selectAll(".node")
                     .filter(function (d) {
                         return d.id != thisNode;
                     })
-                    .attr("opacity", 0.5)
+                    .attr("opacity", 0.1)
 
 
             })
             .on("mouseout", function (event, d) {
                 d3.selectAll(".link")
-                    .attr("stroke-opacity", 0.6)
+                    .attr("stroke-opacity", (d) => {
+                        return d.value
+                    })
 
                 d3.selectAll(".node")
                     .attr("opacity", 1)
