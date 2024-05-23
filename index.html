@@ -102,11 +102,13 @@
         const links = data.links.map(d => ({...d}));
         const nodes = data.nodes.map(d => ({...d}));
         var groups = {
-            "Bergmann": "#1f77b4",
-            "Ciriello": "#aec7e8",
-            "Dessimoz": "#ff7f0e",
-            "Fasshauer": "#ffbb78",
-            "Salamin": "#d62728"
+            "Bergmann": "#66c2a5",
+            "Ciriello": "#fc8d62",
+            "Dessimoz": "#8da0cb",
+            "Fasshauer": "#e78ac3",
+            "Kutalik": "#a6d854",
+            "Malaspinas": "#ffd92f",
+            "Salamin": "#e5c494"
         }
 
         // Create a simulation with several forces.
@@ -173,7 +175,7 @@
                 }
 
                 selected_edge = this;
-                d3.select(selected_edge).attr("stroke", 'salmon')
+                d3.select(selected_edge).attr("stroke", 'black')
 
                 tooltip.style("visibility", "visible")
                     .style("top", (event.pageY + 20) + "px")
@@ -263,7 +265,7 @@
                     d3.select(selected_node).attr("fill", selected_color)
                 }
 
-                d3.select(this).attr("fill", "salmon")
+                d3.select(this).attr("fill", "black")
 
                 selected_node = this;
                 selected_color = d.color;

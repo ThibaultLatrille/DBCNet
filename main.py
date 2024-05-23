@@ -10,7 +10,7 @@ import textdistance
 def build_graph():
     G = nx.Graph()
 
-    c_map = plt.get_cmap('tab20')
+    c_map = plt.get_cmap('Set2')
     colors_map = {i: c_map(i) for i in range(20)}
     colors_map = {i: f"#{int(c[0] * 255):02x}{int(c[1] * 255):02x}{int(c[2] * 255):02x}" for i, c in colors_map.items()}
     color_idx = 0
@@ -27,15 +27,18 @@ def build_graph():
             label = " ".join(row[id_col].split("_")[1:])
             if label.lower() == label:
                 label = label.capitalize()
-            title = row['Title']
-            abstract = row['Abstract']
-            authors = row['Authors']
+            title = row['Title'].strip().replace("\n", " ")
+            abstract = row['Abstract'].strip().replace("\n", " ")
+            authors = row['Authors'].strip().replace("\n", " ")
             color = colors_map[color_idx % 20]
             keywords = []
             if str(row['Keywords']) != "nan":
                 keywords = row['Keywords'].replace("\n", ", ").replace(";", ", ").split(",")
                 keywords = [k.strip() for k in keywords if len(k.strip()) > 0]
-            link = row['Link']
+            link = row['PDF']
+            if isinstance(link, float) or link.strip() == "":
+                print(f"Link not found for {row[id_col]}")
+                continue
             G.add_node(row[id_col], label=label, title=title, abstract=abstract, color=color, keywords=keywords,
                        doi=link, authors=authors, group=group_name)
             for node in group_nodes:
@@ -66,7 +69,12 @@ def build_graph():
         if row['Id 2'] not in nodes:
             print(f"Target {row['Id 2']} not found in nodes")
             continue
-        G.add_edge(row['Id 1'], row['Id 2'], label="Outer", relationship=row['Relationship'], weight=1, color="grey")
+        id_1, id_2 = list(sorted([row['Id 1'], row['Id 2']]))
+        if G.has_edge(id_1, id_2):
+            print(f"Edge {id_1} - {id_2} already exists, adding the relationship")
+            G.edges[id_1, id_2]['relationship'] += "\n" + row['Relationship'].strip()
+            continue
+        G.add_edge(id_1, id_2, label="Outer", relationship=row['Relationship'].strip(), weight=1, color="grey")
 
     # Obtain adjacency matrix
     return G
@@ -178,7 +186,7 @@ def save_nx(G):
 
 if __name__ == '__main__':
     graph = build_graph()
-    graph = random_edges(graph, 20)
+    graph = random_edges(graph, 0)
     save_json(graph)
     save_nx(graph)
-    save_d3(graph)
+    # save_d3(graph)
