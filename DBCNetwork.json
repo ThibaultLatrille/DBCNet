@@ -62,7 +62,13 @@
       "title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
       "authors": "Marco Varrone, Daniele Tavernari, Albert Santamaria-Mart\u00ednez, Logan A Walsh, Giovanni Ciriello",
       "group": "Ciriello",
-      "keywords": [],
+      "keywords": [
+        "Spatial omics",
+        "cell niches",
+        "Gaussian Mixture Models",
+        "non-small cell lung cancer",
+        "systemic lupus erythematosus"
+      ],
       "abstract": "Tissues are organized in cellular niches, the composition and interactions of which can be investigated using spatial omics technologies. However, systematic analyses of tissue composition are challenged by the scale and diversity of the data. Here we present CellCharter, an algorithmic framework to identify, characterize, and compare cellular niches in spatially resolved datasets. CellCharter outperformed existing approaches and effectively identified cellular niches across datasets generated using different technologies, and comprising hundreds of samples and millions of cells. In multiple human lung cancer cohorts, CellCharter uncovered a cellular niche composed of tumor-associated neutrophil and cancer cells expressing markers of hypoxia and cell migration. This cancer cell state was spatially segregated from more proliferative tumor cell clusters and was associated with tumor-associated neutrophil infiltration and poor prognosis in independent patient cohorts. Overall, CellCharter enables systematic analyses across data types and technologies to decode the link between spatial tissue architectures and cell plasticity.",
       "doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXloLFXHHD9OgYR4XpRAWY8BAwzlPRtYM86Z7Odbg_HU7Q?e=n8BN63",
       "color": "#fc8d62"
@@ -261,6 +267,26 @@
       "color": "#e78ac3"
     },
     {
+      "id": "F_allosteric",
+      "name": "Allosteric",
+      "title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "authors": "Aysima Hacisuleyman, Dirk Fasshauer",
+      "group": "Fasshauer",
+      "keywords": [
+        "allosteric mechanisms",
+        "entropy transfer",
+        "DHFR",
+        "PDZ",
+        "SH3",
+        "S100",
+        "pattern matching",
+        "dGNM."
+      ],
+      "abstract": "The amino acid sequence determines the structure, function, and dynamics of a protein. In recent years, enormous progress has been made in translating sequence information into 3D structural information using artificial intelligence. However, because of the underlying methodology, it is an immense computational challenge to extract this information from the ever-increasing number of sequences. In the present study, we show that it is possible to create 2D contact maps from sequences, for which only a few exemplary structures are available on a laptop without the need for GPUs. This is achieved by using a pattern-matching approach. The resulting contact maps largely reflect the interactions in the 3D structures. This approach was used to explore the evolutionarily conserved allosteric mechanisms and identify the source\u2013sink (driver-driven) relationships by using an established method that combines Schreiber\u2019s concept of entropy transfer with a simple Gaussian network model. The validity of our method was tested on the DHFR, PDZ, SH3, and S100 domains, with our predictions consistently aligning with the experimental findings.",
+      "doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
+      "color": "#e78ac3"
+    },
+    {
       "id": "F_arachidonic_acid",
       "name": "Arachidonic acid",
       "title": "Arachidonic acid does not grease the exocytotic SNARE machinery",
@@ -331,7 +357,7 @@
     {
       "id": "K_PheWAS_clustering",
       "name": "PheWAS clustering",
-      "title": "PheWAS-based  clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
       "authors": "Liza Darrous, Gibran Hemani, George Davey Smith, Zolt\u00e1n Kutalik",
       "group": "Kutalik",
       "keywords": [
@@ -342,6 +368,58 @@
       ],
       "abstract": "Mendelian Randomisation (MR) estimates causal effects between  risk factors and complex outcomes using genetic instruments. Pleiotropy, heritable confounders, and heterogeneous causal effects violate MR assumptions and can lead to biases. To alleviate these, we propose an approach employing a Phenome-Wide association Clustering of the MR instruments (PWC-MR) and apply this method to revisit the surprisingly large apparent causal effect of body mass index (BMI) on educational attainment (EDU):  = \u22120.19 [\u22120.22, \u22120.16]. First, we cluster 324 BMI-associated genetic instruments based on their association with 407 traits in the UK Biobank, which yields six distinct groups. Subsequent cluster-specific MR reveals heterogeneous causal effect estimates on EDU. A cluster enriched for socio-economic indicators yields the largest BMI-on-EDU causal effect estimate ( = \u22120.49 [\u22120.56, \u22120.42]) whereas a cluster enriched for body-mass specific traits provides a more likely estimate ( = \u22120.09 [\u22120.13, \u22120.05]). Follow-up analyses confirms these findings: within-sibling MR ( = \u22120.05 [\u22120.09, \u22120.01]); MR for childhood BMI on EDU ( = \u22120.03 [\u22120.06, \u22120.002]); step-wise multivariable MR ( = \u22120.05 [\u22120.07, \u22120.02]) where socio-economic indicators are jointly modelled. Here we show how the in-depth examination of the BMI-EDU causal relationship demonstrates the utility of our PWC-MR approach in revealing distinct pleiotropic pathways and confounder mechanisms.",
       "doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "color": "#a6d854"
+    },
+    {
+      "id": "K_assortative_mating_genetics",
+      "name": "Assortative mating genetics",
+      "title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "authors": "Jennifer Sjaarda, Zoltan Kutalik",
+      "group": "Kutalik",
+      "keywords": [
+        "assortative mating",
+        "confounding",
+        "couple convergence",
+        "mate choice",
+        "genetics",
+        "causal inference"
+      ],
+      "abstract": "Partners are often similar in terms of their physical and behavioural traits, such as their education, political affiliation and height. However, it is currently unclear what exactly causes this similarity-partner choice, partner influence increasing similarity over time or confounding factors such as shared environment or indirect assortment. Here, we applied Mendelian randomization to the data of 51,664 couples in the UK Biobank and investigated partner similarity in 118 traits. We found evidence of partner choice for 64 traits, 40 of which had larger phenotypic correlation than causal effect. This suggests that confounders contribute to trait similarity, among which household income, overall health rating and education accounted for 29.8, 14.1 and 11.6% of correlations between partners, respectively. Finally, mediation analysis revealed that most causal associations between different traits in the two partners are indirect. In summary, our results show the mechanisms through which indirect assortment increases the observed partner similarity.",
+      "doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "color": "#a6d854"
+    },
+    {
+      "id": "K_cancer_age_at_onset",
+      "name": "Cancer age at onset",
+      "title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "authors": "Ekaterina S. Maksimova, Sven E. Ojavee, Kristi La\u0308ll, Marie C. Sadler, Reedik Ma\u0308gi, Zoltan Kutalik, Matthew R. Robinson",
+      "group": "Kutalik",
+      "keywords": [
+        "genomic prediction",
+        "age at onset",
+        "cancer"
+      ],
+      "abstract": "Genome-wide association studies seek to attribute disease risk to DNA regions and facilitate subject-specific prediction and patient stratification. For later-life diseases, inference from case-control studies is hampered by the uncertainty that control group subjects might later be diagnosed. Time-to-event analysis treats controls as right-censored, making no additional assumptions about future disease occurrence and represents a more sound conceptual alternative for more accurate inference. Here, using data on 11 common cancers from the UK and Estonian Biobank studies, we provide empirical evidence that discovery and genomic prediction are greatly improved by analysing age-at-diagnosis, compared to a case-control model of association. We replicate previous findings from large-scale case-control studies and find an additional 7 previously unreported independent genomic regions, out of which 3 replicated in independent data. Our novel discoveries provide new insights into underlying cancer pathways, and our model yields a better understanding of the polygenicity and genetic architecture of the 11 tumours. We find that heritable germline genetic variation plays a vital role in cancer occurrence, with risk attributable to many thousands of underlying genomic regions. Finally, we show that Bayesian modelling strategies utilizing time-to-event data increase prediction accuracy by an average of 20% compared to a recent summary statistic approach (LDpred-funct). As sample sizes increase, incorporating time-to-event data should be commonplace, improving case-control studies by using richer information about the disease process.",
+      "doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "color": "#a6d854"
+    },
+    {
+      "id": "K_drug_target_omicsQTLs",
+      "name": "drug target omicsQTLs",
+      "title": "Multi-layered genetic approaches to identify approved drug targets",
+      "authors": "Marie C Sadler, Chiara Auwerx, Patrick Deelen, Zolt\u00e1n Kutalik",
+      "group": "Kutalik",
+      "keywords": [
+        "Exome",
+        "GWAS",
+        "drug target discovery",
+        "eQTL",
+        "gene prioritization",
+        "network diffusion",
+        "pQTL"
+      ],
+      "abstract": "Drugs targeting genes linked to disease via evidence from human genetics have increased odds of approval. Approaches to prioritize such genes include genome-wide association studies (GWASs), rare variant burden tests in exome sequencing studies (Exome), or integration of a GWAS with expression/protein quantitative trait loci (eQTL/pQTL-GWAS). Here, we compare gene-prioritization approaches on 30 clinically relevant traits and benchmark their ability to recover drug targets. Across traits, prioritized genes were enriched for drug targets with odds ratios (ORs) of 2.17, 2.04, 1.81, and 1.31 for the GWAS, eQTL-GWAS, Exome, and pQTL-GWAS methods, respectively. Adjusting for differences in testable genes and sample sizes, GWAS outperforms e/pQTL-GWAS, but not the Exome approach. Furthermore, performance increased through gene network diffusion, although the node degree, being the best predictor (OR = 8.7), revealed strong bias in literature-curated networks. In conclusion, we systematically assessed strategies to prioritize drug target genes, highlighting the promises and pitfalls of current approaches.",
+      "doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
       "color": "#a6d854"
     },
     {
@@ -360,6 +438,42 @@
       "color": "#a6d854"
     },
     {
+      "id": "K_parent_of_origin_GWAS",
+      "name": "parent of origin GWAS",
+      "title": "Parent-of-Origin inference for biobanks",
+      "authors": "Robin J Hofmeister, Simone Rubinacci, Diogo M Ribeiro, Alfonso Buil, Zolt\u00e1n Kutalik, Olivier Delaneau",
+      "group": "Kutalik",
+      "keywords": [
+        "phasing",
+        "haplotypes",
+        "relatives",
+        "imputation",
+        "parent of origin",
+        "GWAS"
+      ],
+      "abstract": "Identical genetic variations can have different phenotypic effects depending on their parent of origin. Yet, studies focusing on parent-of-origin effects have been limited in terms of sample size due to the lack of parental genomes or known genealogies. We propose a probabilistic approach to infer the parent-of-origin of individual alleles that does not require parental genomes nor prior knowledge of genealogy. Our model uses Identity-By-Descent sharing with second- and third-degree relatives to assign alleles to parental groups and leverages chromosome X data in males to distinguish maternal from paternal groups. We combine this with robust haplotype inference and haploid imputation to infer the parent-of-origin for 26,393 UK Biobank individuals. We screen 99 phenotypes for parent-of-origin effects and replicate the discoveries of 6 GWAS studies, confirming signals on body mass index, type 2 diabetes, standing height and multiple blood biomarkers, including the known maternal effect at the MEG3/DLK1 locus on platelet phenotypes. We also report a novel maternal effect at the TERT gene on telomere length, thereby providing new insights on the heritability of this phenotype. All our summary statistics are publicly available to help the community to better characterize the molecular mechanisms leading to parent-of-origin effects and their implications for human health.",
+      "doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "color": "#a6d854"
+    },
+    {
+      "id": "K_participation_bias_GWAS",
+      "name": "participation bias GWAS",
+      "title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "authors": "Tabea Schoeler, Doug Speed, Eleonora Porcu, Nicola Pirastu, Jean-Baptiste Pingault, Zolt\u00e1n Kutalik",
+      "group": "Kutalik",
+      "keywords": [
+        "Quantitative trait",
+        "Population genetics",
+        "Genome-wide association studies",
+        "Behavioural genetics",
+        "participation",
+        "collider bias"
+      ],
+      "abstract": "While volunteer-based studies such as the UK Biobank have become the cornerstone of genetic epidemiology, the participating individuals are rarely representative of their target population. To evaluate the impact of selective participation, here we derived UK Biobank participation probabilities on the basis of 14 variables harmonized across the UK Biobank and a representative sample. We then conducted weighted genome-wide association analyses on 19 traits. Comparing the output from weighted genome-wide association analyses (neffective\u2009=\u200994,643 to 102,215) with that from standard genome-wide association analyses (n\u2009=\u2009263,464 to 283,749), we found that increasing representativeness led to changes in SNP effect sizes and identified novel SNP associations for 12 traits. While heritability estimates were less impacted by weighting (maximum change in h2, 5%), we found substantial discrepancies for genetic correlations (maximum change in rg, 0.31) and Mendelian randomization estimates (maximum change in \u03b2STD, 0.15) for socio-behavioural traits. We urge the field to increase representativeness in biobank samples, especially when studying genetic correlates of behaviour, lifestyles and social outcomes.",
+      "doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "color": "#a6d854"
+    },
+    {
       "id": "K_pharmacogenetics",
       "name": "Pharmacogenetics",
       "title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
@@ -373,6 +487,21 @@
       ],
       "abstract": "Electronic health records (EHRs) coupled with large-scale biobanks offer  great promises to unravel the genetic underpinnings of treatment efficacy. However, medication-induced biomarker trajectories stemming from such records remain poorly studied. Here, we extract clinical and medication prescription data from EHRs and conduct GWAS and rare variant burden tests in the UK Biobank (discovery) and the All of Us program (replication) on ten cardiometabolic drug response outcomes including lipid response to statins, HbA1c response to metformin and blood pressure response to antihypertensives (N = 740-26,669). Our findings at genome-wide significance level recover previously reported pharmacogenetic signals and also include novel associations for lipid response to statins (N = 26,669) near LDLR and ZNF800. Importantly, these associations are treatment-specific and not associated with biomarker progression in medication-naive individuals. Furthermore, we demonstrate that individuals with higher genetically determined low-density and total cholesterol baseline levels experience increased absolute, albeit lower relative biomarker reduction following statin treatment. In summary, we systematically investigated the common and rare pharmacogenetic contribution to cardiometabolic drug response phenotypes in over 50,000 UK Biobank and All of Us participants with EHR and identified clinically relevant genetic predictors for improved personalized treatment strategies.",
       "doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "color": "#a6d854"
+    },
+    {
+      "id": "K_selection_metabolites",
+      "name": "Selection metabolites",
+      "title": "Widespread natural selection on metabolite levels in humans",
+      "authors": "Yanina Timasheva, Kaido Lepik, Orsolya Liska, Bal\u00e1zs Papp, Zolt\u00e1n Kutalik",
+      "group": "Kutalik",
+      "keywords": [
+        "stabilising selection",
+        "metabolomics",
+        "causal inference"
+      ],
+      "abstract": "Natural selection acts ubiquitously on complex human traits, predominantly constraining the occurrence of extreme phenotypes (stabilizing selection). These constrains propagate to DNA sequence variants associated with traits under selection. The genetic imprints of such evolutionary events can thus be detected via combining effect size estimates from genetic association studies and the corresponding allele frequencies. While this approach has been successfully applied to high-level traits, the prevalence and mode of selection acting on molecular traits remains poorly understood. Here, we estimate the action of natural selection on genetic variants associated with metabolite levels, an important layer of molecular traits. By leveraging summary statistics of published genome-wide association studies with large sample sizes, we find strong evidence of stabilizing selection for 15 out of 97 plasma metabolites, with an overrepresentation of amino acids among such cases. Mendelian randomization analysis revealed that metabolites under stronger stabilizing selection display larger effects on key cardiometabolic traits, suggesting that maintaining a healthy cardiometabolic profile may be an important source of selective constraints on the metabolome. Metabolites under strong stabilizing selection in humans are also more conserved in their concentrations among diverse mammalian species, suggesting shared selective forces across micro and macroevolutionary time scales. Finally, we also found evidence for both disruptive and directional selection on specific lipid metabolites, potentially indicating ongoing evolutionary adaptation in humans. Overall, this study demonstrates that variation in metabolite levels among humans is frequently shaped by natural selection and this may be acting indirectly through maintaining cardiometabolic fitness.",
+      "doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
       "color": "#a6d854"
     },
     {
@@ -635,6 +764,66 @@
       "relationship": "Group Bergmann"
     },
     {
+      "source": "B_GWAS",
+      "target": "C_CellCharter",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcBO100JYJJDpvVkXr2U6u0BG0u6pTmxP5wr8IiqvUa_Rg?e=DF8tzQ",
+      "target_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXloLFXHHD9OgYR4XpRAWY8BAwzlPRtYM86Z7Odbg_HU7Q?e=n8BN63",
+      "relationship": "Metrics of shape (e.g. tortuosity/curl)"
+    },
+    {
+      "source": "B_GWAS",
+      "target": "K_PheWAS_clustering",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcBO100JYJJDpvVkXr2U6u0BG0u6pTmxP5wr8IiqvUa_Rg?e=DF8tzQ",
+      "target_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "relationship": "Both use MR and GWAS"
+    },
+    {
+      "source": "B_GWAS",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcBO100JYJJDpvVkXr2U6u0BG0u6pTmxP5wr8IiqvUa_Rg?e=DF8tzQ",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Using of GWAS"
+    },
+    {
+      "source": "B_GWAS",
+      "target": "K_participation_bias_GWAS",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcBO100JYJJDpvVkXr2U6u0BG0u6pTmxP5wr8IiqvUa_Rg?e=DF8tzQ",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Both use GWAS analysis in human related diseases"
+    },
+    {
+      "source": "B_GWAS",
+      "target": "S_deep_learning",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Genome-wide Association Studies of Retinal Vessel Tortuosity Identify Numerous Novel Loci Revealing Genes and Pathways Associated With Ocular and Cardiometabolic Diseases",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcBO100JYJJDpvVkXr2U6u0BG0u6pTmxP5wr8IiqvUa_Rg?e=DF8tzQ",
+      "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EURm_9MUQPNJqZiNwzO7lb4BhENsxNlE33I4MCrV0oJIsw?e=hu182T",
+      "relationship": "Use of Deep Learning"
+    },
+    {
       "source": "B_phenotype",
       "target": "B_GWAS",
       "label": "Inner",
@@ -657,6 +846,18 @@
       "target_title": "Cross-GWAS coherence test at the gene and pathway level",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EftRO31Jn9FJhlk4fUoRiUkBcvq0qyVqR_BMBdOHYnKd6w?e=Bm294J",
       "relationship": "Group Bergmann"
+    },
+    {
+      "source": "B_phenotype",
+      "target": "K_PheWAS_clustering",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Phenotypic and Genetic Characteristics of Retinal Vascular Parameters and their Association with Diseases",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EeBemntJRUtIsgpI4lnljokB93YQv6kvgWIueaN5JG9TYg?e=f0hU7R",
+      "target_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "relationship": "Both use MR and GWAS\nMendelian Randomization Analysis"
     },
     {
       "source": "C_CellCharter",
@@ -765,6 +966,30 @@
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZlknyFCJ4pHh4pCdN52jdcB2_ACEdfqYyua0SRejI0BKQ?e=9ZexLm",
       "relationship": "Group Ciriello"
+    },
+    {
+      "source": "C_CellCharter",
+      "target": "F_lncRNA_cancer_transcriptomics",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXloLFXHHD9OgYR4XpRAWY8BAwzlPRtYM86Z7Odbg_HU7Q?e=n8BN63",
+      "target_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWScD1Kt3mlNiMIQBvb5c-MBf2RCrnQ2No7GRFYRG3Zofw?e=HyoHxR",
+      "relationship": "Non-small cell lung cancer\ncancer"
+    },
+    {
+      "source": "C_CellCharter",
+      "target": "S_community",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "CellCharter reveals spatial cell niches associated with tissue remodeling and cell plasticity",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXloLFXHHD9OgYR4XpRAWY8BAwzlPRtYM86Z7Odbg_HU7Q?e=n8BN63",
+      "target_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXDj62FSqmpKljj4XUGuTioBJM6NlQaM4ufz8Lzq37b72Q?e=fciyHv",
+      "relationship": "Characterization of niches (ecological & cell type)"
     },
     {
       "source": "C_Histone",
@@ -947,6 +1172,18 @@
       "relationship": "Group Ciriello"
     },
     {
+      "source": "C_coregulation",
+      "target": "S_community",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Systematic  assessment of gene co-regulation within chromatin domains determines  differentially active domains across human cancers",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQjgE_6hlShBu1bN-VgGXsMBarmZYIDI_bjLx3SLAwxtIw?e=f1Hhng",
+      "target_title": "Implementation of biotic interactions in niche analyses unravels the patterns underneath community composition in clownfishes",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXDj62FSqmpKljj4XUGuTioBJM6NlQaM4ufz8Lzq37b72Q?e=fciyHv",
+      "relationship": "Spatial interactions (cellular versus ecological level)"
+    },
+    {
       "source": "C_dependencies",
       "target": "C_pan_cancer",
       "label": "Inner",
@@ -969,6 +1206,42 @@
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZlknyFCJ4pHh4pCdN52jdcB2_ACEdfqYyua0SRejI0BKQ?e=9ZexLm",
       "relationship": "Group Ciriello"
+    },
+    {
+      "source": "C_dependencies",
+      "target": "F_lncRNA_cancer_transcriptomics",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Discovering functional evolutionary dependencies in human cancers",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EaBFvHRdP-dGnCjSrqV29w8Bq52h7DWya3PYTux3syLpVA?e=zfGdch",
+      "target_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWScD1Kt3mlNiMIQBvb5c-MBf2RCrnQ2No7GRFYRG3Zofw?e=HyoHxR",
+      "relationship": "Cancer"
+    },
+    {
+      "source": "C_dependencies",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Discovering functional evolutionary dependencies in human cancers",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EaBFvHRdP-dGnCjSrqV29w8Bq52h7DWya3PYTux3syLpVA?e=zfGdch",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Both working on identifying new targets for drugs based on omics data"
+    },
+    {
+      "source": "C_dependencies",
+      "target": "S_adaptation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Discovering functional evolutionary dependencies in human cancers",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EaBFvHRdP-dGnCjSrqV29w8Bq52h7DWya3PYTux3syLpVA?e=zfGdch",
+      "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZ-OKk7AGKFHtCJiUMz0rrUBUvpOieR_qfek_5cPGeaaSA?e=Rm46Rd",
+      "relationship": "Fitness landscape of mutations in different context."
     },
     {
       "source": "C_doubling",
@@ -1151,6 +1424,30 @@
       "relationship": "Group Ciriello"
     },
     {
+      "source": "C_epistasis",
+      "target": "F_mutual_information",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZJJPKvrbPpCkb8SSMNm-4gBdWJ17w-IeX5ZrjbFvbh8mw?e=6xNvaC",
+      "target_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EVNFKGos1pFMr-vLpTnCSfkBLUqEqw1Hdp95DLET28yF0w?e=8mCKaF",
+      "relationship": "Is about assessing the pathogenicity of mutations."
+    },
+    {
+      "source": "C_epistasis",
+      "target": "S_adaptation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Epistasis and evolutionary dependencies in human cancers",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZJJPKvrbPpCkb8SSMNm-4gBdWJ17w-IeX5ZrjbFvbh8mw?e=6xNvaC",
+      "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZ-OKk7AGKFHtCJiUMz0rrUBUvpOieR_qfek_5cPGeaaSA?e=Rm46Rd",
+      "relationship": "Fitness landscape of mutations in different context."
+    },
+    {
       "source": "C_lung",
       "target": "C_dependencies",
       "label": "Inner",
@@ -1185,6 +1482,18 @@
       "target_title": "Comparison of computational methods for the identification of topologically associating domains",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZlknyFCJ4pHh4pCdN52jdcB2_ACEdfqYyua0SRejI0BKQ?e=9ZexLm",
       "relationship": "Group Ciriello"
+    },
+    {
+      "source": "C_lung",
+      "target": "F_lncRNA_cancer_transcriptomics",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EY4JwDNmGGdEjRnqrQjlOE4BwVSJBCPUYb3QrV2Ks2vm6A?e=uqKSH7",
+      "target_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWScD1Kt3mlNiMIQBvb5c-MBf2RCrnQ2No7GRFYRG3Zofw?e=HyoHxR",
+      "relationship": "Non-small cell lung cancer"
     },
     {
       "source": "C_topological",
@@ -1235,6 +1544,30 @@
       "relationship": "Group Dessimoz"
     },
     {
+      "source": "D_FastOMA",
+      "target": "S_adaptation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Orthology inference at scale with FastOMA",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZ08MNtVi2VDkr1sFb_GMzsB9RPAufwED3rWZo1WrO6cRA?e=YNHnkm",
+      "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZ-OKk7AGKFHtCJiUMz0rrUBUvpOieR_qfek_5cPGeaaSA?e=Rm46Rd",
+      "relationship": "Based on protein-coding alignement of orthologous sequences"
+    },
+    {
+      "source": "D_FastOMA",
+      "target": "S_deep_learning",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Orthology inference at scale with FastOMA",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZ08MNtVi2VDkr1sFb_GMzsB9RPAufwED3rWZo1WrO6cRA?e=YNHnkm",
+      "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EURm_9MUQPNJqZiNwzO7lb4BhENsxNlE33I4MCrV0oJIsw?e=hu182T",
+      "relationship": "Both are methods scalable to large datasets. The estimate of S_deep_learning could be used in infering species tree which is needed as an input for D_FastOMa"
+    },
+    {
       "source": "D_FoldTree",
       "target": "D_OMArk",
       "label": "Inner",
@@ -1259,6 +1592,42 @@
       "relationship": "Group Dessimoz"
     },
     {
+      "source": "D_FoldTree",
+      "target": "F_allosteric",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Structural phylogenetics unravels the evolutionary diversification of communication systems in gram-positive bacteria and their viruses",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQZzdQ-bzONKsgMzlt-IO6MB-_AGDMm0vtlKdB3LXP8pDQ?e=1M7zhM",
+      "target_title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
+      "relationship": "Uses different ways to analyse protein functions. One uses AlphaFold while other uses contact maps. However, both are ways to reprsent a protein structure information."
+    },
+    {
+      "source": "D_FoldTree",
+      "target": "S_deep_learning",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Structural phylogenetics unravels the evolutionary diversification of communication systems in gram-positive bacteria and their viruses",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQZzdQ-bzONKsgMzlt-IO6MB-_AGDMm0vtlKdB3LXP8pDQ?e=1M7zhM",
+      "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EURm_9MUQPNJqZiNwzO7lb4BhENsxNlE33I4MCrV0oJIsw?e=hu182T",
+      "relationship": "Using AI for phylogenetic inference"
+    },
+    {
+      "source": "D_FoldTree",
+      "target": "S_speciation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Structural phylogenetics unravels the evolutionary diversification of communication systems in gram-positive bacteria and their viruses",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQZzdQ-bzONKsgMzlt-IO6MB-_AGDMm0vtlKdB3LXP8pDQ?e=1M7zhM",
+      "target_title": "Exploring the macroevolutionary signature of asymmetric inheritance at speciation",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EVl5g3aVUFZBrCyBvDIsVIUBwg1m8uQWlOLI4tvS6eOCvA?e=T8TB2U",
+      "relationship": "Rates of evolution, Phylogenetic comparative method"
+    },
+    {
       "source": "D_OMArk",
       "target": "D_Read2Tree",
       "label": "Inner",
@@ -1269,6 +1638,42 @@
       "target_title": "Inference of phylogenetic trees directly from raw sequencing reads using Read2Tree",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcObSGyl7pxAv8SW87y7tfoBT_Ijh881j4biltyQ8hNNJQ?e=Vo0pam",
       "relationship": "Group Dessimoz"
+    },
+    {
+      "source": "D_Read2Tree",
+      "target": "M_imputation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Inference of phylogenetic trees directly from raw sequencing reads using Read2Tree",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcObSGyl7pxAv8SW87y7tfoBT_Ijh881j4biltyQ8hNNJQ?e=Vo0pam",
+      "target_title": "Imputation of ancient human genomes",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EYqcSF-cEEdApeVJyhovg1wBtAJutYUoUA0XUn6YUcSNdQ?e=Cde3dF",
+      "relationship": "They are based on genomic data and can be used to validate eachother"
+    },
+    {
+      "source": "D_Read2Tree",
+      "target": "S_deep_learning",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Inference of phylogenetic trees directly from raw sequencing reads using Read2Tree",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EcObSGyl7pxAv8SW87y7tfoBT_Ijh881j4biltyQ8hNNJQ?e=Vo0pam",
+      "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EURm_9MUQPNJqZiNwzO7lb4BhENsxNlE33I4MCrV0oJIsw?e=hu182T",
+      "relationship": "Phylogenetic inference"
+    },
+    {
+      "source": "F_Munc18",
+      "target": "F_allosteric",
+      "label": "Inner",
+      "value": 0.5412079301476337,
+      "color": "#e78ac3",
+      "source_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWAp1HS7XWBMr3T5mon1accB_Lar6mgbUPna-EG7I1dM8g?e=96Vfjd",
+      "target_title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
+      "relationship": "Group Fasshauer"
     },
     {
       "source": "F_Munc18",
@@ -1308,6 +1713,18 @@
     },
     {
       "source": "F_SNARE",
+      "target": "F_allosteric",
+      "label": "Inner",
+      "value": 0.6278918279422199,
+      "color": "#e78ac3",
+      "source_title": "A look beyond the QR code of SNARE proteins",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQkDHJo6KmpKsjnh1taDfcsBrgNaguyYTA19kUPhFNV6MQ?e=NYSR4K",
+      "target_title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
+      "relationship": "Group Fasshauer"
+    },
+    {
+      "source": "F_SNARE",
       "target": "F_arachidonic_acid",
       "label": "Inner",
       "value": 0.43079721291984807,
@@ -1343,6 +1760,30 @@
       "relationship": "Group Fasshauer"
     },
     {
+      "source": "F_arachidonic_acid",
+      "target": "F_allosteric",
+      "label": "Inner",
+      "value": 0.5812906583924748,
+      "color": "#e78ac3",
+      "source_title": "Arachidonic acid does not grease the exocytotic SNARE machinery",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Ecka7iU7jaNPmZ9LFgSRDw8BGC8CNu20ChIIOchvQvLwIg?e=PNP3KL",
+      "target_title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
+      "relationship": "Group Fasshauer"
+    },
+    {
+      "source": "F_lncRNA_cancer_transcriptomics",
+      "target": "F_allosteric",
+      "label": "Inner",
+      "value": 0.6003917319499414,
+      "color": "#e78ac3",
+      "source_title": "Multi-hallmark long noncoding RNA maps reveal non-small cell lung cancer vulnerabilities",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWScD1Kt3mlNiMIQBvb5c-MBf2RCrnQ2No7GRFYRG3Zofw?e=HyoHxR",
+      "target_title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
+      "relationship": "Group Fasshauer"
+    },
+    {
       "source": "F_lncRNA_cancer_transcriptomics",
       "target": "F_arachidonic_acid",
       "label": "Inner",
@@ -1364,6 +1805,18 @@
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EVNFKGos1pFMr-vLpTnCSfkBLUqEqw1Hdp95DLET28yF0w?e=8mCKaF",
       "target_title": "Exploring the conformational changes of the Munc18\u20101/syntaxin 1a complex",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWAp1HS7XWBMr3T5mon1accB_Lar6mgbUPna-EG7I1dM8g?e=96Vfjd",
+      "relationship": "Group Fasshauer"
+    },
+    {
+      "source": "F_mutual_information",
+      "target": "F_allosteric",
+      "label": "Inner",
+      "value": 0.5587287706256665,
+      "color": "#e78ac3",
+      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EVNFKGos1pFMr-vLpTnCSfkBLUqEqw1Hdp95DLET28yF0w?e=8mCKaF",
+      "target_title": "Unveiling Conserved Allosteric Hot Spots in Protein Domains from Sequences",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2024.05.13.593877v1.full.pdf",
       "relationship": "Group Fasshauer"
     },
     {
@@ -1391,10 +1844,58 @@
       "relationship": "Group Fasshauer"
     },
     {
+      "source": "F_mutual_information",
+      "target": "S_adaptation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Role of Mutual Information Profile Shifts in Assessing the Pathoenicity of Mutations on Protein Functions: The case of Pyrin Mutations",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EVNFKGos1pFMr-vLpTnCSfkBLUqEqw1Hdp95DLET28yF0w?e=8mCKaF",
+      "target_title": "Mammalian protein-coding genes exhibit widespread beneficial mutations that are not adaptive",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZ-OKk7AGKFHtCJiUMz0rrUBUvpOieR_qfek_5cPGeaaSA?e=Rm46Rd",
+      "relationship": "Is about assessing the pathogenicity (beneficial, neutral, deleterious) of mutations inside protein coding sequences"
+    },
+    {
+      "source": "K_CNV_disease",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.30083330093951277,
+      "color": "#a6d854",
+      "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_CNV_disease",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.5664630095292296,
+      "color": "#a6d854",
+      "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_CNV_disease",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Inner",
+      "value": 0.3,
+      "color": "#a6d854",
+      "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
       "source": "K_CNV_disease",
       "target": "K_molecular_Mendelian_randomization",
       "label": "Inner",
-      "value": 0.5792630401076999,
+      "value": 0.583759502450093,
       "color": "#a6d854",
       "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
@@ -1404,9 +1905,33 @@
     },
     {
       "source": "K_CNV_disease",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.45273170609138486,
+      "color": "#a6d854",
+      "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_CNV_disease",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.3657254126817782,
+      "color": "#a6d854",
+      "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_CNV_disease",
       "target": "K_pharmacogenetics",
       "label": "Inner",
-      "value": 0.4295032945707753,
+      "value": 0.4866265949646812,
       "color": "#a6d854",
       "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
@@ -1415,12 +1940,24 @@
       "relationship": "Group Kutalik"
     },
     {
+      "source": "K_CNV_disease",
+      "target": "K_selection_metabolites",
+      "label": "Inner",
+      "value": 0.6245299502014563,
+      "color": "#a6d854",
+      "source_title": "Rare copy-number variants as modulators of common disease susceptibility",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
+      "target_title": "Widespread natural selection on metabolite levels in humans",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
       "source": "K_PheWAS_clustering",
       "target": "K_CNV_disease",
       "label": "Inner",
-      "value": 0.3,
+      "value": 0.40263185067942425,
       "color": "#a6d854",
-      "source_title": "PheWAS-based  clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
       "target_title": "Rare copy-number variants as modulators of common disease susceptibility",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EUtqUPWXT3tLgAC9yKnSx28B1uqXOwWFhSTg6RfA89DiUQ?e=9fLTpY",
@@ -1428,11 +1965,47 @@
     },
     {
       "source": "K_PheWAS_clustering",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.5392269526401727,
+      "color": "#a6d854",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_PheWAS_clustering",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.5255165342119091,
+      "color": "#a6d854",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_PheWAS_clustering",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Inner",
+      "value": 0.49335667900261093,
+      "color": "#a6d854",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_PheWAS_clustering",
       "target": "K_molecular_Mendelian_randomization",
       "label": "Inner",
-      "value": 0.5239976475763832,
+      "value": 0.5479148351087892,
       "color": "#a6d854",
-      "source_title": "PheWAS-based  clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
       "target_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
@@ -1440,21 +2013,309 @@
     },
     {
       "source": "K_PheWAS_clustering",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.5907832973821581,
+      "color": "#a6d854",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_PheWAS_clustering",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.61374756552583,
+      "color": "#a6d854",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_PheWAS_clustering",
       "target": "K_pharmacogenetics",
       "label": "Inner",
-      "value": 0.5745390014370986,
+      "value": 0.580695530823379,
       "color": "#a6d854",
-      "source_title": "PheWAS-based  clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
       "target_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
       "relationship": "Group Kutalik"
     },
     {
+      "source": "K_PheWAS_clustering",
+      "target": "K_selection_metabolites",
+      "label": "Inner",
+      "value": 0.44223770106981053,
+      "color": "#a6d854",
+      "source_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "target_title": "Widespread natural selection on metabolite levels in humans",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_assortative_mating_genetics",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.45193201243858605,
+      "color": "#a6d854",
+      "source_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_assortative_mating_genetics",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.5656992544266671,
+      "color": "#a6d854",
+      "source_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_drug_target_omicsQTLs",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.6051446968238481,
+      "color": "#a6d854",
+      "source_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_drug_target_omicsQTLs",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.4324472766647316,
+      "color": "#a6d854",
+      "source_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_drug_target_omicsQTLs",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.5388082752536872,
+      "color": "#a6d854",
+      "source_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_drug_target_omicsQTLs",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.6101058931188867,
+      "color": "#a6d854",
+      "source_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_molecular_Mendelian_randomization",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.4246628141002048,
+      "color": "#a6d854",
+      "source_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_molecular_Mendelian_randomization",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.7,
+      "color": "#a6d854",
+      "source_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_molecular_Mendelian_randomization",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Inner",
+      "value": 0.40531805684514743,
+      "color": "#a6d854",
+      "source_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_molecular_Mendelian_randomization",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.5808129545973417,
+      "color": "#a6d854",
+      "source_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_molecular_Mendelian_randomization",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.4902215349378405,
+      "color": "#a6d854",
+      "source_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_molecular_Mendelian_randomization",
+      "target": "K_selection_metabolites",
+      "label": "Inner",
+      "value": 0.6773328883781233,
+      "color": "#a6d854",
+      "source_title": "MR-link-2: pleiotropy robust cis Mendelian randomization validated in four independent gold-standard datasets of causality",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Eaq1sLymZExLsGvulJ4zOncB29JZVC6IiUQQpiIfIpCVWA?e=9BB9uP",
+      "target_title": "Widespread natural selection on metabolite levels in humans",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_parent_of_origin_GWAS",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.622206017648496,
+      "color": "#a6d854",
+      "source_title": "Parent-of-Origin inference for biobanks",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_parent_of_origin_GWAS",
+      "target": "M_reference_panels",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Parent-of-Origin inference for biobanks",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "target_title": "A resampling-based approach to share reference panels",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ETdd_TEIhvRDlNT_pXGJPD8B1XqDvRGQLqOCWCYhE_tbsw?e=QDZglB",
+      "relationship": "Both are inferring haplotypes, model recombination"
+    },
+    {
+      "source": "K_participation_bias_GWAS",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.658581067184304,
+      "color": "#a6d854",
+      "source_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_participation_bias_GWAS",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.5087815040609743,
+      "color": "#a6d854",
+      "source_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_participation_bias_GWAS",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.6203336648619678,
+      "color": "#a6d854",
+      "source_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_participation_bias_GWAS",
+      "target": "M_imputation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "source_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "target_title": "Imputation of ancient human genomes",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EYqcSF-cEEdApeVJyhovg1wBtAJutYUoUA0XUn6YUcSNdQ?e=Cde3dF",
+      "relationship": "Dealing with missing data (because o loss or selective participation) and the potential bias stemming from it"
+    },
+    {
+      "source": "K_pharmacogenetics",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.5259219148744715,
+      "color": "#a6d854",
+      "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_pharmacogenetics",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.6860443017488942,
+      "color": "#a6d854",
+      "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_pharmacogenetics",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Inner",
+      "value": 0.5052757229937661,
+      "color": "#a6d854",
+      "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
       "source": "K_pharmacogenetics",
       "target": "K_molecular_Mendelian_randomization",
       "label": "Inner",
-      "value": 0.6552494925020167,
+      "value": 0.6330436744023082,
       "color": "#a6d854",
       "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
@@ -1463,10 +2324,154 @@
       "relationship": "Group Kutalik"
     },
     {
+      "source": "K_pharmacogenetics",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.6825103075825475,
+      "color": "#a6d854",
+      "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_pharmacogenetics",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.6080178730546635,
+      "color": "#a6d854",
+      "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_pharmacogenetics",
+      "target": "K_selection_metabolites",
+      "label": "Inner",
+      "value": 0.5565872421412483,
+      "color": "#a6d854",
+      "source_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "target_title": "Widespread natural selection on metabolite levels in humans",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.38767463561056603,
+      "color": "#a6d854",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.6761776518870677,
+      "color": "#a6d854",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Inner",
+      "value": 0.3549452762767402,
+      "color": "#a6d854",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.5336697184078478,
+      "color": "#a6d854",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.42818544537250436,
+      "color": "#a6d854",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "S_deep_learning",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Improved estimation of molecular evolution coupling stochastic simulations and deep learning",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EURm_9MUQPNJqZiNwzO7lb4BhENsxNlE33I4MCrV0oJIsw?e=hu182T",
+      "relationship": "Both uses data that enables estimation of per site evolutionary rates"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "S_diversification",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ETlLtN_mCe5Lk2ZywDbdOPgBSyEryq_Jpueoq8W_rgZcZw?e=rbGIQe",
+      "relationship": "selection"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "S_metabolomic",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Divergence in metabolomic profile in clownfish and damselfish skin mucus",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/Ebftaz5jWUJPq95B_pwff4MBmvq0yWkaDEQbKFqJa83-kQ?e=g4FxVC",
+      "relationship": "Both are metabolomics studies"
+    },
+    {
+      "source": "K_selection_metabolites",
+      "target": "S_trait_evolution",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Widespread natural selection on metabolite levels in humans",
+      "source_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
+      "target_title": "Detecting diversifying selection for a trait from within and between-species genotypes and phenotypes",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EWkpzIpbO0hOvdolmynmKJgBM68hPal6oyFLBOfWz1Vh-w?e=1ALjvV",
+      "relationship": "Detecting selection"
+    },
+    {
       "source": "K_telomeres_health",
       "target": "K_CNV_disease",
       "label": "Inner",
-      "value": 0.48557633301046355,
+      "value": 0.5229950946283327,
       "color": "#a6d854",
       "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
@@ -1478,19 +2483,55 @@
       "source": "K_telomeres_health",
       "target": "K_PheWAS_clustering",
       "label": "Inner",
-      "value": 0.5265329303363839,
+      "value": 0.5495591981176445,
       "color": "#a6d854",
       "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
-      "target_title": "PheWAS-based  clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
+      "target_title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct  mechanism-specific causal effects between obesity and educational  attainment",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ESX5pYzuBMtLhJ4aBKL7SycBgwuIsRSFrLdMp47kfMzpAw?e=fwa6Ra",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_telomeres_health",
+      "target": "K_assortative_mating_genetics",
+      "label": "Inner",
+      "value": 0.49466842016653995,
+      "color": "#a6d854",
+      "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
+      "target_title": "Partner choice, confounding and trait convergence all contribute to phenotypic partner similarity",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10202815/pdf/41562_2022_Article_1500.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_telomeres_health",
+      "target": "K_cancer_age_at_onset",
+      "label": "Inner",
+      "value": 0.6645412947120722,
+      "color": "#a6d854",
+      "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
+      "target_title": "Novel discoveries and enhanced genomic prediction from modelling genetic risk of cancer age-at-onset",
+      "target_doi": "https://raw.githubusercontent.com/elifesciences/enhanced-preprints-data/master/data/89882/v1/89882-v1.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_telomeres_health",
+      "target": "K_drug_target_omicsQTLs",
+      "label": "Inner",
+      "value": 0.44791696492955924,
+      "color": "#a6d854",
+      "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
+      "target_title": "Multi-layered genetic approaches to identify approved drug targets",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10363916/pdf/main.pdf",
       "relationship": "Group Kutalik"
     },
     {
       "source": "K_telomeres_health",
       "target": "K_molecular_Mendelian_randomization",
       "label": "Inner",
-      "value": 0.7,
+      "value": 0.6620684760213462,
       "color": "#a6d854",
       "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
@@ -1500,14 +2541,50 @@
     },
     {
       "source": "K_telomeres_health",
+      "target": "K_parent_of_origin_GWAS",
+      "label": "Inner",
+      "value": 0.6395711243740947,
+      "color": "#a6d854",
+      "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
+      "target_title": "Parent-of-Origin inference for biobanks",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9637181/pdf/41467_2022_Article_34383.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_telomeres_health",
+      "target": "K_participation_bias_GWAS",
+      "label": "Inner",
+      "value": 0.5407188378548664,
+      "color": "#a6d854",
+      "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
+      "target_title": "Participation bias in the UK Biobank distorts genetic associations and downstream analyses",
+      "target_doi": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10365993/pdf/41562_2023_Article_1579.pdf",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_telomeres_health",
       "target": "K_pharmacogenetics",
       "label": "Inner",
-      "value": 0.6872588438073068,
+      "value": 0.6538046696073796,
       "color": "#a6d854",
       "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
       "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
       "target_title": "Leveraging large-scale biobank EHRs to enhance pharmacogenetics of cardiometabolic disease medications",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EXLA2j3tv-lNjKEjsjxgKhoB80nRTp7X_q2QPYS8UgNiVA?e=34Khiu",
+      "relationship": "Group Kutalik"
+    },
+    {
+      "source": "K_telomeres_health",
+      "target": "K_selection_metabolites",
+      "label": "Inner",
+      "value": 0.6053672333577439,
+      "color": "#a6d854",
+      "source_title": "Breaking down causes, consequences, and mediating effects of telomere length variation on human health",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EQyX9bUz8FdPgYaBvrEDY34BXYUjjQl3u4yIr7wMILH2-A?e=cF4mkX",
+      "target_title": "Widespread natural selection on metabolite levels in humans",
+      "target_doi": "https://www.biorxiv.org/content/10.1101/2023.02.07.527420v1.full.pdf",
       "relationship": "Group Kutalik"
     },
     {
@@ -1581,6 +2658,18 @@
       "target_title": "Mapache: a flexible pipeline to map ancient DNA",
       "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EbsLpFVJfrxKo9Orf_uMW78BKkoUhBuy5Ipc7kN3tfkJ0w?e=PgTOhF",
       "relationship": "Group Malaspinas"
+    },
+    {
+      "source": "M_paleogenomes",
+      "target": "S_diversification",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Pre-processing of paleogenomes: Mitigating reference bias and postmortem damage in ancient genome data",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EZeQoNvH_p9Klb864KbPSkIBl3XIMX5KxI1NMoq74Tabuw?e=kMwYXg",
+      "target_title": "Insights into the genomics of clownfish adaptive radiation: the genomic substrate of the diversification",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/ETlLtN_mCe5Lk2ZywDbdOPgBSyEryq_Jpueoq8W_rgZcZw?e=rbGIQe",
+      "relationship": "Use ATLAS"
     },
     {
       "source": "M_reference_panels",
