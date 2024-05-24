@@ -70,6 +70,8 @@ def build_graph():
             print(f"Target {row['Id 2']} not found in nodes")
             continue
         id_1, id_2 = list(sorted([row['Id 1'], row['Id 2']]))
+        if str(row['Relationship']) == "nan":
+            continue
         if G.has_edge(id_1, id_2):
             print(f"Edge {id_1} - {id_2} already exists, adding the relationship")
             G.edges[id_1, id_2]['relationship'] += "\n" + row['Relationship'].strip()
