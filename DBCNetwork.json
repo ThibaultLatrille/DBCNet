@@ -2828,6 +2828,18 @@
     },
     {
       "source": "M_imputation",
+      "target": "S_hybridisation",
+      "label": "Outer",
+      "value": 1,
+      "color": "grey",
+      "source_title": "Imputation of ancient human genomes",
+      "source_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EYqcSF-cEEdApeVJyhovg1wBtAJutYUoUA0XUn6YUcSNdQ?e=Cde3dF",
+      "target_title": "Ongoing hybridisation among clownfishes: the genomic architecture of the Kimbe Bay hybrid zone",
+      "target_doi": "https://unils-my.sharepoint.com/:b:/g/personal/thibault_latrille_unil_ch/EVIXSYDutFZGh9SMF32IflUBJaCmt9sAherOPOJ0jtejBg?e=toWlCe",
+      "relationship": "Uses ADMIXTURE plots"
+    },
+    {
+      "source": "M_imputation",
       "target": "S_trait_evolution",
       "label": "Outer",
       "value": 1,
